@@ -3,11 +3,11 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "NewBIS",
   description: "Official public user guides and capabilities documentation",
-  base: "/newbis-public-docs/",
+  base: "/",
   ignoreDeadLinks: true,
   
   head: [
-    ['link', { rel: 'icon', href: '/newbis-public-docs/icon-72x72.png' }]
+    ['link', { rel: 'icon', href: '/icon-72x72.png' }]
   ],
 
   

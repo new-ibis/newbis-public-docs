@@ -7,7 +7,14 @@ export default defineConfig({
   ignoreDeadLinks: true,
   
   head: [
-    ['link', { rel: 'icon', href: '/icon-72x72.png' }]
+    ['link', { rel: 'icon', href: '/icon-72x72.png' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:url', content: 'https://docs.newbis.bg/' }],
+    ['meta', { property: 'og:title', content: 'NewBIS' }],
+    ['meta', { property: 'og:description', content: 'Official public user guides and capabilities documentation' }],
+    ['meta', { property: 'og:image', content: 'https://docs.newbis.bg/Logo_NB_Short.png' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:image', content: 'https://docs.newbis.bg/Logo_NB_Short.png' }]
   ],
 
   
